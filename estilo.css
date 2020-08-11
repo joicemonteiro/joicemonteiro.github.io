@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color:#83CC3C;
+    color: white;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 170;
+    float: right;
+    position:absolute;
+    margin-left: 30px;
+    padding: 0;
+}
+nav {
+    float: right;
+    margin-right: 30px;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    padding: 33 15 33 15;
+    font-size: 20px;
+    margin-left: 5px;
+}
+li:hover {
+    background-color: #B1FFA4;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+#fundo {
+    background:url(img/fundo.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 95%;
+    text-align: center;
+}
+#titulo {
+    color: rgb(0, 0, 0);
+    padding-top: 16%;
+    padding-bottom: 1%;
+    border-bottom: #FF6484 solid 6px;
+    margin-left: 9%;
+    margin-right: 9%;
+    font-size: 43px;
+    text-shadow: 2px -1px rgba(255, 255, 255, 0.788);
+    text-transform: uppercase;
+}
+#subtitulo {
+    font-size: 27px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 0;
+    padding-bottom: 29px;
+    color: rgb(0, 0, 0);
+}
+#acao {
+    font-size: 23px;
+    color: rgb(8, 8, 8);
+    border:solid #a3f096 2px;
+    padding: 10 35 10 35;
+    border-radius: 40px;
+    background-color: #a3f096;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+}
+#acao:hover {
+    background-color: #83CC3C;
+    color: rgb(235, 235, 235);
+    border:solid #83CC3C 2px;
+}
+section {
+    padding: 10px;
+    float: left;
+}
+.coluna {
+    float: left;
+    padding: 20px;
+    position: relative;
+}
+.dois {
+    width: 45%;
+}
+#objetivo {
+    padding: 20px;
+}
+.destaque {
+    background-color:#B1FFA4 ;
+}
+.centralizado {
+    text-align: center;
+}
+.tex {
+    padding-right: 20%;
+    padding-left:20%;
+}
+.destaques {
+    background-color: #f380a6;
+}
+.tres {
+    width: 15%;
+    border: solid 3px #CC5A38;
+    padding-bottom: 30px;
+    margin: 50px;
+    padding-top: 30px;
+    margin-left: 9%;
+}
+.icone {
+    width: 100px;
+    padding: 15px;
+}
+.icone:hover {
+    background-color: #fc98ac;
+    border-radius: 100px;
+}
+.consumer {
+    padding-left: 5%;
+    padding-right: 5%;
+    line-height: 1.6;
+    text-align: justify;
+}
+.top {
+    text-transform: uppercase;
+    font-family:cursive;
+    font-size: 21px;
+    color:rgb(7, 134, 3);
+}
+#negrito {
+    background-color: #998179;
+    border-radius: 40px;
+    padding: 7px;
+    color: white;
+    font-size: 19px;
+}
+.redesocial {
+    width: 40px;
+    height: 40px;
+}
+#sete {
+    margin-left:0.9%;
+    margin-right:0.9%;
+    text-align:start;
+    width: 9%;
+    padding-bottom: 5px;
+    margin-top: 23px;
+    font-size: 16px;
+
+}
+#sete:hover {
+    background-color: rgb(164, 250, 137);
+}
+.bio {
+    width: 13%;
+    padding:50 50 50 50;
+    margin-bottom: 0;
+    text-align:center;
+    margin-left: 3%;
+}
+.foto {
+    text-align: center;
+    padding-bottom: 0;
+    padding-top: 17px;
+}
+.bio1:hover {
+    background-color: rgb(161, 250, 161);
+    border-radius: 50px;
+}
+.bio1 {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+}
+.rs {
+    width: 30%;
+    border: 1px solid rgb(7, 48, 1);
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+footer {
+    background-color:#B1FFA4;
+    clear: both;
+    padding-top: 30px;
+    width: 100%;
+    height: 350px;
+    font-size: 20px;
+
+}
+#roda {
+    margin-left: 42%;
+}
+#home {
+    margin-left: 88% ;
+}
+#eco {
+    width: 100%;
+    height: 450px;
+    opacity: 0.5;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+.font {
+    font-size: 23px;
+}
+@media all and (max-width: 768px) {
+    #menu, #acao {
+        visibility: hidden;
+    }
+    body {
+        width: 100%;
+    }
+    .coluna, .dois, .tres, .bio, #sete {
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
+    #logod {
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin: 0;
+    }
+    #logo {
+        margin: 0;
+        transform: translateX(-50%);
+    }
+    .bio, .bio1, .foto {
+        text-align: center;
+    }
+    #titulo {
+        font-size: 35px;
+        padding-top: 40%;
+    }
+    #subtitulo {
+        font-size: 23px ;
+    }
+    footer {
+        font-size: 15px;
+        text-align: center;
+    }
+    #roda{
+        transform: translateX(-35%);
+    }
+    #eco {
+        width: 100%;
+        height: 40%;
+    }
+    .top {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    #fundo {
+        background:url()
+    }
+    
+}
